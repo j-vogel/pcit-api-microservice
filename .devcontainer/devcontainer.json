@@ -1,0 +1,25 @@
+{
+  "name": "Java 8 Microservice",
+  "image": "mcr.microsoft.com/devcontainers/java:1.8",
+
+  "features": {
+    "ghcr.io/devcontainers/features/java:1": {
+      "version": "8",
+      "installMaven": "true",
+      "installGradle": "false"
+    }
+  },
+
+  "forwardPorts": [8080],
+
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "vscjava.vscode-java-pack",
+        "redhat.java"
+      ]
+    }
+  },
+  
+  "postCreateCommand": "mvn clean install"
+}
