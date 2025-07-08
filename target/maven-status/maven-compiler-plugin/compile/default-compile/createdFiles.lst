@@ -3,6 +3,7 @@ com/example/pcit/wsdl/Hours.class
 com/example/pcit/wsdl/PackageInfoType.class
 com/example/pcit/wsdl/BinaryAttachment.class
 com/example/pcit/wsdl/TradeLineitemType.class
+com/example/pcit/PcitMicroserviceApplication.class
 com/example/pcit/wsdl/CertifiedOriginType.class
 com/example/pcit/wsdl/CountryCode.class
 com/example/pcit/wsdl/DocumentType.class

@@ -17,6 +17,7 @@
 /workspaces/pcit-api-microservice/target/generated-sources/xjc/com/example/pcit/wsdl/Hours.java
 /workspaces/pcit-api-microservice/target/generated-sources/xjc/com/example/pcit/wsdl/InspectionType.java
 /workspaces/pcit-api-microservice/target/generated-sources/xjc/com/example/pcit/wsdl/CertifiedOriginType.java
+/workspaces/pcit-api-microservice/src/main/java/com/example/pcit/PcitMicroserviceApplication.java
 /workspaces/pcit-api-microservice/target/generated-sources/xjc/com/example/pcit/wsdl/UOMType.java
 /workspaces/pcit-api-microservice/target/generated-sources/xjc/com/example/pcit/wsdl/Minutes.java
 /workspaces/pcit-api-microservice/target/generated-sources/xjc/com/example/pcit/wsdl/BinaryObjectType.java

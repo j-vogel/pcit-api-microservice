@@ -2,13 +2,15 @@ package com.example.pcit;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.annotation.ComponentScan;
 
 /**
  * The main entry point for the Spring Boot application.
- * The @SpringBootApplication annotation enables auto-configuration,
- * component scanning, and other key Spring Boot features.
  */
+// We are explicitly telling Spring to scan all sub-packages of "com.example.pcit"
+// This ensures it finds the Controller, Service, and Config classes.
 @SpringBootApplication
+@ComponentScan(basePackages = "com.example.pcit.*")
 public class PcitMicroserviceApplication {
 
 	/**
