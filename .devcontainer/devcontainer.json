@@ -1,25 +1,33 @@
 {
   "name": "Java 8 Microservice",
-  "image": "mcr.microsoft.com/devcontainers/java:1.8",
+  // This image tag is more specific and stable.
+  // It uses the Debian "Bullseye" OS as a base, which is well-supported.
+  "image": "mcr.microsoft.com/devcontainers/java:1.8-bullseye",
 
   "features": {
     "ghcr.io/devcontainers/features/java:1": {
+      // Explicitly setting the version to 8 here
       "version": "8",
       "installMaven": "true",
       "installGradle": "false"
     }
   },
 
+  // Forward the port our Spring Boot app will run on
   "forwardPorts": [8080],
 
+  // Install the essential Java extensions in VS Code
   "customizations": {
     "vscode": {
       "extensions": [
         "vscjava.vscode-java-pack",
-        "redhat.java"
+        "redhat.java",
+        "Pivotal.vscode-spring-boot"
       ]
     }
   },
   
+  // Optional: Run 'mvn clean install' after the Codespace is created
+  // to pre-build the project and download dependencies.
   "postCreateCommand": "mvn clean install"
 }
