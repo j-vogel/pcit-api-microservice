@@ -64,6 +64,10 @@
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
+                <configuration>
+                    <!-- This line tells Spring Boot where to find the main class -->
+                    <mainClass>com.example.pcit.PcitMicroserviceApplication</mainClass>
+                </configuration>
             </plugin>
             <!-- Explicitly configure maven-compiler-plugin to enforce Java 1.8 -->
             <plugin>
