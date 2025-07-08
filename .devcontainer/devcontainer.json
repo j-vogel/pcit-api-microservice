@@ -1,12 +1,12 @@
 {
   "name": "Java 8 Microservice",
-  // This image tag is more specific and stable.
-  // It uses the Debian "Bullseye" OS as a base, which is well-supported.
-  "image": "mcr.microsoft.com/devcontainers/java:1.8-bullseye",
+  // Use a standard, generic base image. This is more stable.
+  "image": "mcr.microsoft.com/devcontainers/base:bullseye",
 
   "features": {
+    // This "feature" will install a specific version of Java (and Maven)
+    // onto the base image. This is the modern, recommended approach.
     "ghcr.io/devcontainers/features/java:1": {
-      // Explicitly setting the version to 8 here
       "version": "8",
       "installMaven": "true",
       "installGradle": "false"
