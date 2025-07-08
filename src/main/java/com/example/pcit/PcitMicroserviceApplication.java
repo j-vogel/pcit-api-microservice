@@ -9,8 +9,9 @@ import org.springframework.context.annotation.ComponentScan;
  */
 // We are explicitly telling Spring to scan all sub-packages of "com.example.pcit"
 // This ensures it finds the Controller, Service, and Config classes.
+// The package name has been corrected for standard practice.
 @SpringBootApplication
-@ComponentScan(basePackages = "com.example.pcit.*")
+@ComponentScan(basePackages = "com.example.pcit")
 public class PcitMicroserviceApplication {
 
 	/**
