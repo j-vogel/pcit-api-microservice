@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PCIT:PhytosanitaryCertificate xmlns:PCIT="gov:usda:aphis:pcit:PCITPhytoSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="gov:usda:aphis:pcit:PCITPhytoSchema IndustrySchema.xsd">
+	<PCIT:Document>
+		<PCIT:IndustryApplicationID>CottonTesting4</PCIT:IndustryApplicationID>
+		<PCIT:IndustryType>1</PCIT:IndustryType>
+		<PCIT:CertificateType>7</PCIT:CertificateType>
+		<PCIT:PcitApplicantOrgId>47251</PCIT:PcitApplicantOrgId>
+		<PCIT:ExporterName>Cotton Exporter ABC</PCIT:ExporterName>
+		<PCIT:ExporterAddress>
+			<PCIT:Line1>13783 Bell Rd.</PCIT:Line1>
+			<PCIT:Line2>Ste 212 N</PCIT:Line2>
+			<PCIT:City>Houston</PCIT:City>
+			<PCIT:State>TX</PCIT:State>
+			<PCIT:ZipCode>79401</PCIT:ZipCode>
+		</PCIT:ExporterAddress>
+		<PCIT:ConsigneeName>Cotton Importer XYZ</PCIT:ConsigneeName>
+		<PCIT:ConsigneeAddress>
+			<PCIT:Line1>1234 North Street</PCIT:Line1>
+			<PCIT:Line2/>
+			<PCIT:City>Salta</PCIT:City>
+			<PCIT:StateTerritoryProvince/>
+			<PCIT:PostalCode/>
+			<PCIT:CountryCode>AR</PCIT:CountryCode>
+		</PCIT:ConsigneeAddress>
+		<PCIT:ImportPermitNumber/>
+                <PCIT:ReferenceInformation>Test Reference Information</PCIT:ReferenceInformation>
+		<PCIT:GeneralComments/>
+		<PCIT:CommodityAvailableInfo>
+			<PCIT:CommodityAvailableDate>2020-03-05</PCIT:CommodityAvailableDate>
+			<PCIT:Hours>12</PCIT:Hours>
+			<PCIT:Minutes>45</PCIT:Minutes>
+		</PCIT:CommodityAvailableInfo>
+		<PCIT:InspectionSite>Farmers #1 Coop 123 Main St. Lubbock TX 79401</PCIT:InspectionSite>
+		<PCIT:ApproximateDepartureDate>
+			<PCIT:DateTime>2020-03-05T10:26:20-06:00</PCIT:DateTime>
+		</PCIT:ApproximateDepartureDate>
+		<PCIT:MeansOfConveyance>
+			<PCIT:TransportModeCode>2</PCIT:TransportModeCode>
+			<PCIT:TransportModeDetail/>
+		</PCIT:MeansOfConveyance>
+		<PCIT:DeclaredPointOfEntry>ALY   EL ISKANDARIYA  EG</PCIT:DeclaredPointOfEntry>
+		<PCIT:IsCommercial>Y</PCIT:IsCommercial>
+		<PCIT:DutyStationCode>94</PCIT:DutyStationCode>
+		<PCIT:Attachment>
+			<PCIT:AttachmentBinaryObject filename="test.pdf">VEVTVCBURVNU</PCIT:AttachmentBinaryObject>
+			<PCIT:FileDescription>-1</PCIT:FileDescription>
+                        <PCIT:FileDescriptionOtherDetail>File Description Other</PCIT:FileDescriptionOtherDetail>
+			<PCIT:FileContentType>1</PCIT:FileContentType>
+		</PCIT:Attachment>
+	</PCIT:Document>
+	<PCIT:Consignment>
+		<PCIT:TradeLineitem>
+			<PCIT:LineItemSequence>1</PCIT:LineItemSequence>
+			<PCIT:CommodityInfo>
+				<PCIT:CommodityCode>54270</PCIT:CommodityCode>
+				<PCIT:PartNameCode>23</PCIT:PartNameCode>
+			</PCIT:CommodityInfo>
+                        <PCIT:Quantities>
+                                <PCIT:Quantity>
+                                        <PCIT:UnitCode>8</PCIT:UnitCode>
+                                        <PCIT:Value>1767.478</PCIT:Value>
+                                </PCIT:Quantity>
+                        </PCIT:Quantities>
+			<PCIT:PackageInfo>
+				<PCIT:Value>2</PCIT:Value>
+				<PCIT:Description>Containers</PCIT:Description>
+			</PCIT:PackageInfo>
+			<PCIT:DistinguishingMarks> LN401 88, LN404 88</PCIT:DistinguishingMarks>
+			<PCIT:CertifiedOrigins>
+				<PCIT:CertifiedOrigin>
+					<PCIT:CountryCode>US</PCIT:CountryCode>
+					<PCIT:AdditionalDetails>MD</PCIT:AdditionalDetails>
+				</PCIT:CertifiedOrigin>
+			</PCIT:CertifiedOrigins>
+			<PCIT:Inspections>
+				<PCIT:Inspection>
+					<PCIT:BeginDate>
+						<PCIT:DateTime>2020-03-05T10:26:20-06:00</PCIT:DateTime>
+					</PCIT:BeginDate>
+					<PCIT:EndDate>
+						<PCIT:DateTime>2020-03-05T10:26:20-06:00</PCIT:DateTime>
+					</PCIT:EndDate>
+                                        <PCIT:InspectorType>1</PCIT:InspectorType>
+					<PCIT:PercentInspected>25</PCIT:PercentInspected>
+					<PCIT:LocationOfArticles>Farmers #1 Coop 123 Main St. Lubbock TX 79401</PCIT:LocationOfArticles>
+				</PCIT:Inspection>
+			</PCIT:Inspections>
+		</PCIT:TradeLineitem>
+		<PCIT:TradeLineitem>
+			<PCIT:LineItemSequence>2</PCIT:LineItemSequence>
+			<PCIT:CommodityInfo>
+				<PCIT:CommodityCode>54270</PCIT:CommodityCode>
+				<PCIT:PartNameCode>23</PCIT:PartNameCode>
+			</PCIT:CommodityInfo>
+                        <PCIT:Quantities>
+                            <PCIT:Quantity>
+                                    <PCIT:UnitCode>8</PCIT:UnitCode>
+                                    <PCIT:Value>100.00</PCIT:Value>
+                            </PCIT:Quantity>
+                        </PCIT:Quantities>
+			<PCIT:PackageInfo>
+				<PCIT:Value>100</PCIT:Value>
+				<PCIT:Description>100 Bales In 1 Container</PCIT:Description>
+			</PCIT:PackageInfo>
+			<PCIT:DistinguishingMarks>LN336 88, LN337 88</PCIT:DistinguishingMarks>
+			<PCIT:CertifiedOrigins>
+				<PCIT:CertifiedOrigin>
+					<PCIT:CountryCode>US</PCIT:CountryCode>
+					<PCIT:AdditionalDetails>Houston, TX</PCIT:AdditionalDetails>
+				</PCIT:CertifiedOrigin>
+				<PCIT:CertifiedOrigin>
+					<PCIT:CountryCode>US</PCIT:CountryCode>
+					<PCIT:AdditionalDetails>MD</PCIT:AdditionalDetails>
+				</PCIT:CertifiedOrigin>
+			</PCIT:CertifiedOrigins>
+			<PCIT:Inspections>
+				<PCIT:Inspection>
+					<PCIT:BeginDate>
+						<PCIT:DateTime>2020-03-05T10:26:20-06:00</PCIT:DateTime>
+					</PCIT:BeginDate>
+					<PCIT:EndDate>
+						<PCIT:DateTime>2020-03-05T10:26:20-06:00</PCIT:DateTime>
+					</PCIT:EndDate>
+					<PCIT:InspectorType>0</PCIT:InspectorType>
+					<PCIT:PercentInspected>25</PCIT:PercentInspected>
+					<PCIT:LocationOfArticles>Farmers #1 Coop 123 Main St. Lubbock TX 79401</PCIT:LocationOfArticles>
+				</PCIT:Inspection>
+				<PCIT:Inspection>
+					<PCIT:BeginDate>
+						<PCIT:DateTime>2020-03-05T10:26:20-06:00</PCIT:DateTime>
+					</PCIT:BeginDate>
+					<PCIT:EndDate>
+						<PCIT:DateTime>2020-03-05T10:26:20-06:00</PCIT:DateTime>
+					</PCIT:EndDate>
+					<PCIT:InspectorType>1</PCIT:InspectorType>
+					<PCIT:PercentInspected>75</PCIT:PercentInspected>
+					<PCIT:LocationOfArticles>Texas Coop 123 West St. Lubbock TX 79401</PCIT:LocationOfArticles>
+				</PCIT:Inspection>
+			</PCIT:Inspections>
+		</PCIT:TradeLineitem>
+	</PCIT:Consignment>
+</PCIT:PhytosanitaryCertificate>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema targetNamespace="gov:usda:aphis:pcit:PCIT_CommodityCode"  xmlns:xsd="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xsd:simpleType name="CommodityCode">
+		<xsd:restriction base="xsd:string">
+			<xsd:enumeration value="54270">
+				<xsd:annotation>
+					<xsd:documentation>Common Name: Cotton; Botanical Name Genus: Gossypium; Botanical Name Species: sp.</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="1314">
+				<xsd:annotation>
+					<xsd:documentation>Common Name: Cotton; Botanical Name Genus: Gossypium; Botanical Name Species: Hirsutum</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+		</xsd:restriction>
+	</xsd:simpleType>
+</xsd:schema>

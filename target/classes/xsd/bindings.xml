@@ -1,0 +1,151 @@
+<!-- When the value of an enum starts with a number, the java class does not get generated. This custom binding xml fixes that. -->
+<jxb:bindings 
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+    xmlns:jxb="http://java.sun.com/xml/ns/jaxb"
+    version="2.1">
+    <jxb:bindings schemaLocation="PCIT_IndustryCode.xsd">
+        <jxb:bindings node="//xs:simpleType[@name='Industry']/xs:restriction/xs:enumeration[@value='1']">
+            <jxb:typesafeEnumMember name="COTTON"/>
+        </jxb:bindings>
+        <jxb:bindings node="//xs:simpleType[@name='Industry']/xs:restriction/xs:enumeration[@value='2']">
+            <jxb:typesafeEnumMember name="GRAIN"/>
+        </jxb:bindings>
+        <jxb:bindings node="//xs:simpleType[@name='Industry']/xs:restriction/xs:enumeration[@value='3']">
+            <jxb:typesafeEnumMember name="OTHERS"/>
+        </jxb:bindings>
+    </jxb:bindings>
+    <jxb:bindings schemaLocation="PCIT_CommodityCode.xsd">
+        <jxb:bindings node="//xs:simpleType[@name='CommodityCode']/xs:restriction/xs:enumeration[@value='54270']">
+            <jxb:typesafeEnumMember name="COTTONSP"/>
+        </jxb:bindings>
+        <jxb:bindings node="//xs:simpleType[@name='CommodityCode']/xs:restriction/xs:enumeration[@value='1314']">
+            <jxb:typesafeEnumMember name="COTTONHIRSUTUM"/>
+        </jxb:bindings>
+    </jxb:bindings>
+    <jxb:bindings schemaLocation="PCIT_DutyStationCode.xsd">
+        <jxb:bindings node="//xs:simpleType[@name='DutyStationCode']/xs:restriction/xs:enumeration[@value='94']">
+            <jxb:typesafeEnumMember name="Washington - NCPS (PPQ)"/>
+        </jxb:bindings>
+    </jxb:bindings>
+    <jxb:bindings schemaLocation="PCIT_Hours.xsd">
+        <jxb:bindings node="//xs:simpleType[@name='Hours']/xs:restriction/xs:enumeration[@value='00']">
+            <jxb:typesafeEnumMember name="ZERO"/>
+        </jxb:bindings>
+        <jxb:bindings node="//xs:simpleType[@name='Hours']/xs:restriction/xs:enumeration[@value='01']">
+            <jxb:typesafeEnumMember name="ONE"/>
+        </jxb:bindings>
+        <jxb:bindings node="//xs:simpleType[@name='Hours']/xs:restriction/xs:enumeration[@value='02']">
+            <jxb:typesafeEnumMember name="TWO"/>
+        </jxb:bindings>
+        <jxb:bindings node="//xs:simpleType[@name='Hours']/xs:restriction/xs:enumeration[@value='03']">
+            <jxb:typesafeEnumMember name="THREE"/>
+        </jxb:bindings>
+        <jxb:bindings node="//xs:simpleType[@name='Hours']/xs:restriction/xs:enumeration[@value='04']">
+            <jxb:typesafeEnumMember name="FOUR"/>
+        </jxb:bindings>
+        <jxb:bindings node="//xs:simpleType[@name='Hours']/xs:restriction/xs:enumeration[@value='05']">
+            <jxb:typesafeEnumMember name="FIVE"/>
+        </jxb:bindings>
+        <jxb:bindings node="//xs:simpleType[@name='Hours']/xs:restriction/xs:enumeration[@value='06']">
+            <jxb:typesafeEnumMember name="SIX"/>
+        </jxb:bindings>
+        <jxb:bindings node="//xs:simpleType[@name='Hours']/xs:restriction/xs:enumeration[@value='07']">
+            <jxb:typesafeEnumMember name="SEVEN"/>
+        </jxb:bindings>
+        <jxb:bindings node="//xs:simpleType[@name='Hours']/xs:restriction/xs:enumeration[@value='08']">
+            <jxb:typesafeEnumMember name="EIGHT"/>
+        </jxb:bindings>
+        <jxb:bindings node="//xs:simpleType[@name='Hours']/xs:restriction/xs:enumeration[@value='09']">
+            <jxb:typesafeEnumMember name="NINE"/>
+        </jxb:bindings>
+        <jxb:bindings node="//xs:simpleType[@name='Hours']/xs:restriction/xs:enumeration[@value='10']">
+            <jxb:typesafeEnumMember name="TEN"/>
+        </jxb:bindings>
+        <jxb:bindings node="//xs:simpleType[@name='Hours']/xs:restriction/xs:enumeration[@value='11']">
+            <jxb:typesafeEnumMember name="ELEVEN"/>
+        </jxb:bindings>
+        <jxb:bindings node="//xs:simpleType[@name='Hours']/xs:restriction/xs:enumeration[@value='12']">
+            <jxb:typesafeEnumMember name="TWELVE"/>
+        </jxb:bindings>
+        <jxb:bindings node="//xs:simpleType[@name='Hours']/xs:restriction/xs:enumeration[@value='13']">
+            <jxb:typesafeEnumMember name="THIRTEEN"/>
+        </jxb:bindings>
+        <jxb:bindings node="//xs:simpleType[@name='Hours']/xs:restriction/xs:enumeration[@value='14']">
+            <jxb:typesafeEnumMember name="FOURTEEN"/>
+        </jxb:bindings>
+        <jxb:bindings node="//xs:simpleType[@name='Hours']/xs:restriction/xs:enumeration[@value='15']">
+            <jxb:typesafeEnumMember name="FIFTEEN"/>
+        </jxb:bindings>
+        <jxb:bindings node="//xs:simpleType[@name='Hours']/xs:restriction/xs:enumeration[@value='16']">
+            <jxb:typesafeEnumMember name="SIXTEEN"/>
+        </jxb:bindings>
+        <jxb:bindings node="//xs:simpleType[@name='Hours']/xs:restriction/xs:enumeration[@value='17']">
+            <jxb:typesafeEnumMember name="SEVENTEEN"/>
+        </jxb:bindings>
+        <jxb:bindings node="//xs:simpleType[@name='Hours']/xs:restriction/xs:enumeration[@value='18']">
+            <jxb:typesafeEnumMember name="EIGHTEEN"/>
+        </jxb:bindings>
+        <jxb:bindings node="//xs:simpleType[@name='Hours']/xs:restriction/xs:enumeration[@value='19']">
+            <jxb:typesafeEnumMember name="NINETEEN"/>
+        </jxb:bindings>
+        <jxb:bindings node="//xs:simpleType[@name='Hours']/xs:restriction/xs:enumeration[@value='20']">
+            <jxb:typesafeEnumMember name="TWENTY"/>
+        </jxb:bindings>
+        <jxb:bindings node="//xs:simpleType[@name='Hours']/xs:restriction/xs:enumeration[@value='21']">
+            <jxb:typesafeEnumMember name="TWENTYONE"/>
+        </jxb:bindings>
+        <jxb:bindings node="//xs:simpleType[@name='Hours']/xs:restriction/xs:enumeration[@value='22']">
+            <jxb:typesafeEnumMember name="TWENTYTWO"/>
+        </jxb:bindings>
+        <jxb:bindings node="//xs:simpleType[@name='Hours']/xs:restriction/xs:enumeration[@value='23']">
+            <jxb:typesafeEnumMember name="TWENTYTHREE"/>
+        </jxb:bindings>
+    </jxb:bindings>
+    <jxb:bindings schemaLocation="PCIT_Minutes.xsd">
+        <jxb:bindings node="//xs:simpleType[@name='Minutes']/xs:restriction/xs:enumeration[@value='00']">
+            <jxb:typesafeEnumMember name="ZERO"/>
+        </jxb:bindings>
+        <jxb:bindings node="//xs:simpleType[@name='Minutes']/xs:restriction/xs:enumeration[@value='15']">
+            <jxb:typesafeEnumMember name="FIFTEEN"/>
+        </jxb:bindings>
+        <jxb:bindings node="//xs:simpleType[@name='Minutes']/xs:restriction/xs:enumeration[@value='30']">
+            <jxb:typesafeEnumMember name="THIRTY"/>
+        </jxb:bindings>
+        <jxb:bindings node="//xs:simpleType[@name='Minutes']/xs:restriction/xs:enumeration[@value='45']">
+            <jxb:typesafeEnumMember name="FOURTYFIVE"/>
+        </jxb:bindings>
+    </jxb:bindings>
+    <jxb:bindings schemaLocation="PCIT_PartCode.xsd">
+        <jxb:bindings node="//xs:simpleType[@name='PartType']/xs:restriction/xs:enumeration[@value='23']">
+            <jxb:typesafeEnumMember name="FIBER"/>
+        </jxb:bindings>
+    </jxb:bindings>
+    <jxb:bindings schemaLocation="PCIT_TransportModeCode.xsd">
+        <jxb:bindings node="//xs:simpleType[@name='ModeCodeType']/xs:restriction/xs:enumeration[@value='0']">
+            <jxb:typesafeEnumMember name="ZERO"/>
+        </jxb:bindings>
+        <jxb:bindings node="//xs:simpleType[@name='ModeCodeType']/xs:restriction/xs:enumeration[@value='1']">
+            <jxb:typesafeEnumMember name="ONE"/>
+        </jxb:bindings>
+        <jxb:bindings node="//xs:simpleType[@name='ModeCodeType']/xs:restriction/xs:enumeration[@value='2']">
+            <jxb:typesafeEnumMember name="TWO"/>
+        </jxb:bindings>
+        <jxb:bindings node="//xs:simpleType[@name='ModeCodeType']/xs:restriction/xs:enumeration[@value='3']">
+            <jxb:typesafeEnumMember name="THREE"/>
+        </jxb:bindings>
+        <jxb:bindings node="//xs:simpleType[@name='ModeCodeType']/xs:restriction/xs:enumeration[@value='4']">
+            <jxb:typesafeEnumMember name="FOUR"/>
+        </jxb:bindings>
+        <jxb:bindings node="//xs:simpleType[@name='ModeCodeType']/xs:restriction/xs:enumeration[@value='5']">
+            <jxb:typesafeEnumMember name="FIVE"/>
+        </jxb:bindings>
+        <jxb:bindings node="//xs:simpleType[@name='ModeCodeType']/xs:restriction/xs:enumeration[@value='8']">
+            <jxb:typesafeEnumMember name="EIGHT"/>
+        </jxb:bindings>
+    </jxb:bindings>
+    <jxb:bindings schemaLocation="PCIT_UnitMeasureCode.xsd">
+         <jxb:bindings node="//xs:simpleType[@name='UOMType']/xs:restriction/xs:enumeration[@value='8']">
+            <jxb:typesafeEnumMember name="KILOGRAMS"/>
+        </jxb:bindings>
+    </jxb:bindings>
+</jxb:bindings>
